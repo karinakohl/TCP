@@ -18,7 +18,7 @@ public class InefficientCodeExample {
         }
         System.out.println("Result: " + result);
 
-        // Operação de busca ineficiente em uma lista
+        // Operação de busca ineficiente em uma lista - gerar pull request
         if (numbers.contains(99999)) {
             System.out.println("Found the number!");
         }
