@@ -11,7 +11,7 @@ public class InefficientCodeExample {
             numbers.add(i);
         }
 
-        // Concatenando strings ineficientemente
+        // Concatenando strings ineficientemente - mudando comentário para gerar nova versão
         String result = "";
         for (int i = 0; i < numbers.size(); i++) {
             result += numbers.get(i) + ", ";
