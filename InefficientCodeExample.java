@@ -11,14 +11,14 @@ public class InefficientCodeExample {
             numbers.add(i);
         }
 
-        // Concatenando strings ineficientemente - mudando comentário para gerar nova versão
+        // Concatenando strings ineficientemente
         String result = "";
         for (int i = 0; i < numbers.size(); i++) {
             result += numbers.get(i) + ", ";
         }
         System.out.println("Result: " + result);
 
-        // Operação de busca ineficiente em uma lista - gerar pull request
+        // Operação de busca ineficiente em uma lista
         if (numbers.contains(99999)) {
             System.out.println("Found the number!");
         }
